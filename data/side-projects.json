@@ -1,0 +1,34 @@
+[
+  {
+    "url": "",
+    "title": "2D Platformer (working title)",
+    "subtitle": "Game - TBA (maybe)",
+    "media": "./img/2d-platformer.webp",
+    "description": "A casual puzzle platformer I'm building in my spare time with Godot. A good excuse to explore the engine's component-based philosophy hands-on, and to attempt pixel art (which, as a programmer, is probably the real challenge here).",
+    "tags": ["Game"]
+  },
+  {
+    "url": "https://www.fab.com/listings/6b8e0045-1124-4e1d-9b0b-71e62d77ae59",
+    "title": "Dynamic Avoidance",
+    "subtitle": "Unreal Engine Plugin - 2025",
+    "media": "./img/dynamic-avoidance.webp",
+    "description": "A dynamic obstacle avoidance plugin for Unreal Engine. Born out of the AI driving system I built for Warhammer 40,000: Speed Freeks, then cleaned up and generalized into a single-component plugin that plays nice with UE's built-in nav system.",
+    "tags": ["AI", "Game Plugin"]
+  },
+  {
+    "url": "https://www.fab.com/listings/3b185927-ca99-4c51-9e12-6264a0fc62dc",
+    "title": "Nav Link Editor Mode",
+    "subtitle": "Unreal Engine Plugin - 2024",
+    "media": "./img/nav-link-editor-mode.webp",
+    "description": "A nav link editor plugin for Unreal Engine, made for Warhammer 40,000: Speed Freeks to speed up navmesh iteration. It lets you visually place and edit nav links without triggering rebuilds until you're ready.",
+    "tags": ["AI", "Editor Plugin"]
+  },
+  {
+    "url": "https://www.fab.com/listings/0c69185b-049a-4c31-a501-878289c70efb",
+    "title": "Auto Nav Link Generator",
+    "subtitle": "Unreal Engine Plugin - 2024",
+    "media": "./img/auto-nav-link-generator.webp",
+    "description": "An automatic nav link generator for Unreal Engine. It detects navmesh edges in your level and creates navigation links based on the parameters you define. Supports multiple nav agents, so it works with levels that have different recast navmeshes.",
+    "tags": ["AI", "Editor Plugin"]
+  }
+]

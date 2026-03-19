@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://store.steampowered.com/app/2078450/Warhammer_40000_Speed_Freeks/",
+    "title": "Warhammer 40,000: Speed Freeks",
+    "subtitle": "Caged Element - 2025",
+    "media": "./img/speed-freeks.webp",
+    "description": "For Warhammer 40,000: Speed Freeks, the tech team consisted of just three people, and given that it's a vehicular combat game with large, non-linear levels, that alone was already quite the challenge. That small team size meant I wore a lot of hats, and honestly, that's how I like it.\n\nOne of the most interesting problems was the AI driving system. Navigating vehicles through big, open-ended levels isn't as straightforward as typical character navigation: we needed both spline-based movement for more structured sections and navmesh-based navigation for free roaming. On top of that, I implemented a dynamic obstacle avoidance system based on context steering.\n\nBeyond AI, I worked across platform integration with Steam, performance optimization, internal architecture, and tools. But probably the feature I'm most proud of is the game's creation mode: players could build custom maps while hosting a live session, with other players seeing the changes in real time and playing as the map took shape.\n\nDoing all of this with such a small tech team was a big challenge, but also incredibly rewarding. Every decision mattered, and you could see your impact everywhere.",
+    "tags": ["AI", "Gameplay", "Architecture", "Tools", "Optimization"]
+  },
+  {
+    "url": "https://store.steampowered.com/app/2125090/Tintin_Reporter__Cigars_of_the_Pharaoh/",
+    "title": "Tintin Reporter - Cigars of the Pharaoh",
+    "subtitle": "Pendulo Studios - 2023",
+    "media": "./img/tintin.webp",
+    "description": "Tintin Reporter - Cigars of the Pharaoh was where I shifted into a more graphics-focused role, which was a nice change of pace. I spent most of my time working on character shaders (hair, skin, eyes, cloth) and water rendering. I also built a tool for 3ds Max that let artists procedurally generate varied characters for the game, and an improved version of the cinematics tool I had originally built for Alfred Hitchcock - Vertigo.\n\nAs for architecture, the game was built on top of a system I had designed for the studio's previous title, so here it was more about revisiting and evolving it for what this project needed.",
+    "tags": ["Architecture", "Tools", "Graphics"]
+  },
+  {
+    "url": "https://store.steampowered.com/app/1449320/Alfred_Hitchcock__Vertigo/",
+    "title": "Alfred Hitchcock - Vertigo",
+    "subtitle": "Pendulo Studios - 2021",
+    "media": "./img/vertigo.webp",
+    "description": "Alfred Hitchcock - Vertigo was a turning point for me. The previous title at the studio was already underway when I joined, so there was only so much I could change. But for Vertigo, I got to design and implement the game's architecture from scratch, which was really satisfying. The goal was to improve on what we had before and make it easier for the whole team to work with.\n\nSince everything was new, I also ended up mentoring junior developers to help them find their way around the new system. I built a pretty robust visual tool for designers to create cinematics and conversations using timelines, worked with the animation department to implement motion matching, collaborated with the audio team, and contributed to gameplay and optimization.A project with a lot of variety, which I really enjoyed.",
+    "tags": ["Gameplay", "Architecture", "Tools", "Animation", "Audio", "Optimization"]
+  },
+  {
+    "url": "https://store.steampowered.com/app/1003890/Blacksad_Under_the_Skin/",
+    "title": "Blacksad: Under the Skin",
+    "subtitle": "Pendulo Studios - 2019",
+    "media": "./img/blacksad.webp",
+    "description": "Blacksad: Under the Skin was my first big project. I was coming from a porting background, so this was where I really got to grow as a developer in a larger production. The team was under 20 people, so shipping a narrative-driven 3D adventure of this scope took a lot of effort from everyone. That environment pushed me to take on more and more, and the team trusted me to do so.\n\nI built a new camera system for the game, created a tool to help with cloth physics, and another one to manage and automate the voice recording audio files, which saved the team quite a bit of manual work. Over time I also got involved in optimization and contributed to the porting process, which felt like coming full circle given where I started.",
+    "tags": ["Gameplay", "Architecture", "Tools", "Audio", "Optimization"]
+  },
+  {
+    "url": "https://store.steampowered.com/app/721390/Pipe_Push_Paradise/",
+    "title": "Pipe Push Paradise",
+    "subtitle": "Stage Clear Studios (Porting) - 2018",
+    "media": "./img/pipe-push-paradise.webp",
+    "description": "Ported to Nintendo Switch/PS4/Xbox One. I handled platform adaptation, optimization, and certification.",
+    "tags": ["Porting", "Optimization"]
+  },
+  {
+    "url": "https://store.steampowered.com/app/250580/Paranautical_Activity_Deluxe_Atonement_Edition/",
+    "title": "Paranautical Activity",
+    "subtitle": "Stage Clear Studios (Porting) - 2018",
+    "media": "./img/paranautical-activity.webp",
+    "description": "Ported to Nintendo Switch/PS4/Xbox One. I handled platform adaptation, optimization, and certification.",
+    "tags": ["Porting", "Optimization"]
+  },
+  {
+    "url": "https://store.steampowered.com/app/369550/Blacksea_Odyssey/",
+    "title": "Blacksea Odyssey",
+    "subtitle": "Stage Clear Studios (Porting) - 2018",
+    "media": "./img/blacksea-odyssey.webp",
+    "description": "Ported to Nintendo Switch/PS4/Xbox One. I handled platform adaptation, optimization, and certification.",
+    "tags": ["Porting", "Optimization"]
+  },
+  {
+    "url": "",
+    "title": "Darkborn",
+    "subtitle": "Starquake Games - 2017",
+    "media": "./img/darkborn.webp",
+    "description": "Darkborn was a master's degree project, a 16-person team building a 3D hack and slash in UE4 that we submitted to the PlayStation Awards. It didn't go anywhere after that, but it was my first real experience working on a game with a sizable team.\n\nI was one of six programmers on the tech side. Together we built the combat system, and individually I worked on camera, physics, some AI, UI design and integration, tools, and parts of the game architecture. It was the kind of project where everyone had to pitch in wherever needed.\n\nIt wasn't a commercial project, but it was where I first got a taste of what it's like to build something bigger than yourself with a real team. A lot of how I approach work now traces back to that.",
+    "tags": ["Tools", "Gameplay", "VR", "XR", "Full-Stack", "Arduino"]
+  },
+  {
+    "url": "",
+    "title": "XR Project",
+    "subtitle": "DEI UC3M - 2017",
+    "media": "./img/uc3m.webp",
+    "description": "During my time at UC3M, I worked in a research department on a cross-reality (XR) project that connected physical and virtual environments through Oculus Rift, Arduino, and a web application. I contributed to the VR experience and was mainly in charge of the full-stack development of the webapp, which let users design behaviors for Arduino components in the physical world and link them to their virtual counterparts in VR, so that any interaction on either side would be reflected in the other.",
+    "tags": ["Tools", "Gameplay", "VR", "XR", "Full-Stack", "Arduino"]
+  }
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Escudero</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- CSS theme -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme')
+      const preferredTheme = savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+      document.documentElement.setAttribute('data-theme', preferredTheme)
+    })()
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="./js/gsap/gsap.min.js" defer></script>
+  <script src="./js/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="./js/gsap/TextPlugin.min.js" defer></script>
+  <script src="./js/gsap/SplitText.min.js" defer></script>
+  <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+  <div class="preloader"></div>
+
+  <section class="intro-section">
+    <!-- Theme toggle -->
+    <button class="toggle-button haptic-clickable">
+      <svg class="icon-light" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"></path></svg>
+
+      <svg class="icon-dark" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z"></path></svg>
+    </button>
+
+    <h1>
+      <span>></span><span class="greeting"></span><span class="cursor">_</span>
+    </h1>
+
+    <div class="intro-links">
+      <a class="styled-link" href="https://www.linkedin.com/in/juanev/" target="_blank">LinkedIn</a>
+      <a class="styled-link" href="https://github.com/juan-ev" target="_blank">GitHub</a>
+    </div>
+
+    <div class="intro-text">
+      <p>I'm a game programmer and software engineer with around 10 years in the industry. I've mostly worked with Unreal Engine and Unity professionally, and I've been using Godot for a while now on personal projects (<em>gotta support the open-source gang</em>). That said, I'm always happy to pick up whatever engine or tech a project needs.</p>
+
+      <p>I've shipped games on PC and consoles, and ported titles to Switch, PS4, and Xbox One. Over the years I've touched a bit of everything: gameplay, architecture, AI, tools, shaders, audio, optimization... which is honestly one of my favorite things about this job.</p>
+
+      <p>I work best in small teams where everyone wears a few hats and your work has a real impact on the project. I care about writing clean code and doing things properly, but I'm not precious about it: shipping matters too. I also enjoy web development, which is how this portfolio came to be.</p>
+
+      <p>And when I'm not at a screen, I'm probably <a class="styled-link" href="https://www.youtube.com/shorts/gNCYAKcYZlM?feature=share" target="_blank">playing guitar</a> (arguably with more bugs than my code).</p>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <div class="showcase-buttons">
+      <span class="showcase-button haptic-clickable selected" data-list-id="showcase-experience">Experience</span>
+      <span class="showcase-button haptic-clickable" data-list-id="showcase-side-projects">Side Projects</span>
+    </div>
+
+    <div id="showcase-experience" class="showcase-list"></div>
+    <div id="showcase-side-projects" class="showcase-list hidden"></div>
+  </section>
+
+  <footer>© <span class="year"></span> Juan Escudero</footer>
+
+  <!-- Templates -->
+  <template id="experience-card">
+    <article class="showcase-card experience-card">
+      <div>
+        <a href="" class="showcase-card-title-link" target="_blank"><h3 class="showcase-card-title"></h3></a>
+        <h4 class="showcase-card-subtitle"></h4>
+      </div>
+      <a href="" class="showcase-card-img-link" target="_blank"><img class="showcase-card-img" src="" alt=""></a>
+      <ul class="showcase-card-tags"></ul>
+      <p class="showcase-card-description collapsed"></p>
+      <button class="showcase-card-read-more haptic-clickable">Read more</button>
+    </article>
+  </template>
+
+  <template id="side-project-card">
+    <article class="showcase-card side-project-card">
+      <a href="" class="showcase-card-img-link" target="_blank"><img class="showcase-card-img" src="" alt=""></a>
+      <div class="side-project-card-text">
+        <div>
+          <a href="" class="showcase-card-title-link" target="_blank"><h3 class="showcase-card-title"></h3></a>
+          <h4 class="showcase-card-subtitle"></h4>
+        </div>
+        <ul class="showcase-card-tags"></ul>
+        <p class="showcase-card-description collapsed"></p>
+        <button class="showcase-card-read-more haptic-clickable">Read more</button>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

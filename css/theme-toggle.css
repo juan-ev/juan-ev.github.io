@@ -1,0 +1,34 @@
+.toggle-button {
+  all: unset;
+  display: flex;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--bg);
+  color: var(--text);
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px dashed var(--text);
+  z-index: 98;
+}
+
+@media (min-width: 768px) {
+  .toggle-button {
+    top: 2rem;
+    right: 2rem;
+  }
+}
+
+.toggle-button svg {
+  width: var(--fs-m);
+  height: var(--fs-m);
+}
+
+[data-theme="light"] .icon-light {
+  display: none;
+}
+
+[data-theme="dark"] .icon-dark {
+  display: none;
+}

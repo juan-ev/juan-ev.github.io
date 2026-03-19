@@ -1,0 +1,46 @@
+:root {
+  /* Fonts */
+  --font-a: "Space Mono", monospace;
+  --font-b: "Lora", serif;
+
+  /* Responsive font sizes */
+  --fs-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --fs-s: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+  --fs-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --fs-m: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem);
+  --fs-l: clamp(1.75rem, 1.5rem + 1.25vw, 2.5rem);
+  --fs-xl: clamp(2.5rem, 2rem + 2.5vw, 4rem);
+
+  /* Colors */
+  /* --color-dark: #2A2B2E;
+  --color-light: #F6F4F3;
+  --color-a: #DDD5D0; */
+
+  --color-dark: #1E1F23;
+  --color-light: #E8E6E1;
+  --color-muted: #C4BDB7;
+  --color-muted-dark: #3A3935;
+  --color-a: #6A8FA7;  /* steel blue — links, highlights */
+  --color-b: #C45C3E;  /* signal red — CTAs, tags */
+
+  /* Misc */
+  --haptic-translate: 3px;
+  --haptic-time: 0.07s;
+  --theme-time: 0.25s;
+
+  /* Media queries */
+  /* sm  @media (min-width: 480px)  { } */
+  /* md  @media (min-width: 768px)  { } */
+  /* lg  @media (min-width: 1024px) { } */
+  /* xl  @media (min-width: 1280px) { } */
+}
+
+[data-theme="light"] {
+  --bg: var(--color-light);
+  --text: var(--color-dark);
+}
+
+[data-theme="dark"] {
+  --bg: var(--color-dark);
+  --text: var(--color-light);
+}
