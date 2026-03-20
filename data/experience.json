@@ -29,7 +29,7 @@
     "subtitle": "Pendulo Studios - 2019",
     "media": "./img/blacksad.webp",
     "description": "Blacksad: Under the Skin was my first big project. I was coming from a porting background, so this was where I really got to grow as a developer in a larger production. The team was under 20 people, so shipping a narrative-driven 3D adventure of this scope took a lot of effort from everyone. That environment pushed me to take on more and more, and the team trusted me to do so.\n\nI built a new camera system for the game, created a tool to help with cloth physics, and another one to manage and automate the voice recording audio files, which saved the team quite a bit of manual work. Over time I also got involved in optimization and contributed to the porting process, which felt like coming full circle given where I started.",
-    "tags": ["Gameplay", "Architecture", "Tools", "Audio", "Optimization"]
+    "tags": ["Gameplay", "Architecture", "Tools", "Audio", "Optimization", "Porting"]
   },
   {
     "url": "https://store.steampowered.com/app/721390/Pipe_Push_Paradise/",
