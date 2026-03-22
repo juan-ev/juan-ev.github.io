@@ -12,21 +12,18 @@
   --fs-xl: clamp(2.5rem, 2rem + 2.5vw, 4rem);
 
   /* Colors */
-  /* --color-dark: #2A2B2E;
-  --color-light: #F6F4F3;
-  --color-a: #DDD5D0; */
-
   --color-dark: #1E1F23;
   --color-light: #E8E6E1;
   --color-muted: #C4BDB7;
   --color-muted-dark: #3A3935;
-  --color-a: #6A8FA7;  /* steel blue — links, highlights */
-  --color-b: #C45C3E;  /* signal red — CTAs, tags */
+  --color-a: #6A8FA7;
+  --color-b: #C45C3E;
 
   /* Misc */
   --haptic-translate: 3px;
   --haptic-time: 0.07s;
   --theme-time: 0.25s;
+  --material-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
   /* Media queries */
   /* sm  @media (min-width: 480px)  { } */

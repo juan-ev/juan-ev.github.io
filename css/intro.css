@@ -28,6 +28,7 @@ h1 {
   font-weight: 700;
   font-style: italic;
   text-shadow: -1px 0 var(--color-b), 1px 0 var(--color-a);
+  user-select: none;
 }
 
 @media (min-width: 768px) {
@@ -53,6 +54,7 @@ h1 {
   display: flex;
   gap: 2rem;
   font-size: var(--fs-s);
+  user-select: none;
 }
 
 .intro-text {

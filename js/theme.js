@@ -3,6 +3,8 @@
 ***********************************************************************************/
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme)
+  const meta = document.querySelector('meta[name="theme-color"]')
+  meta.setAttribute('content', theme === 'dark' ? '#1E1F23' : '#E8E6E1')
 }
 
 /**

@@ -74,18 +74,22 @@ async function loadData(url, templateId, containerId) {
 /**
 * Set up title and image links.
 ***********************************************************************************/
-function setupShowcaseCardLinks(clone, url) {
+function setupShowcaseCardLinks(clone, url, urlName) {
   const hasUrl = url && url !== ''
   const titleLink = clone.querySelector('.showcase-card-title-link')
   const imgLink = clone.querySelector('.showcase-card-img-link')
+  const imgLinkIcon = clone.querySelector('.showcase-card-img-icon')
+
   if (hasUrl) {
     titleLink.href = url
     imgLink.href = url
+    imgLinkIcon.querySelector('.showcase-card-link-name').textContent = urlName
   } else {
     titleLink.href = '#!'
     titleLink.target = '_self'
     imgLink.href = '#!'
     imgLink.target = '_self'
+    imgLinkIcon.remove()
   }
 }
 
@@ -125,7 +129,7 @@ function setupShowcaseCardReadMore(description, button) {
 function createShowcaseCard(data, template) {
   const clone = template.content.cloneNode(true)
 
-  setupShowcaseCardLinks(clone, data.url)
+  setupShowcaseCardLinks(clone, data.url, data.urlName)
 
   // Content.
   clone.querySelector('.showcase-card-title').textContent = data.title

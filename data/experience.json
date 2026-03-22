@@ -1,6 +1,16 @@
 [
   {
+    "url": "",
+    "urlName": "",
+    "title": "GRIP XR",
+    "subtitle": "Caged Element - TBA",
+    "media": "./img/grip-xr.webp",
+    "description": "WIP!",
+    "tags": ["AI", "Gameplay", "Architecture", "Tools", "Optimization"]
+  },
+  {
     "url": "https://store.steampowered.com/app/2078450/Warhammer_40000_Speed_Freeks/",
+    "urlName": "Steam",
     "title": "Warhammer 40,000: Speed Freeks",
     "subtitle": "Caged Element - 2025",
     "media": "./img/speed-freeks.webp",
@@ -9,6 +19,7 @@
   },
   {
     "url": "https://store.steampowered.com/app/2125090/Tintin_Reporter__Cigars_of_the_Pharaoh/",
+    "urlName": "Steam",
     "title": "Tintin Reporter - Cigars of the Pharaoh",
     "subtitle": "Pendulo Studios - 2023",
     "media": "./img/tintin.webp",
@@ -17,6 +28,7 @@
   },
   {
     "url": "https://store.steampowered.com/app/1449320/Alfred_Hitchcock__Vertigo/",
+    "urlName": "Steam",
     "title": "Alfred Hitchcock - Vertigo",
     "subtitle": "Pendulo Studios - 2021",
     "media": "./img/vertigo.webp",
@@ -25,14 +37,16 @@
   },
   {
     "url": "https://store.steampowered.com/app/1003890/Blacksad_Under_the_Skin/",
+    "urlName": "Steam",
     "title": "Blacksad: Under the Skin",
     "subtitle": "Pendulo Studios - 2019",
     "media": "./img/blacksad.webp",
-    "description": "Blacksad: Under the Skin was my first big project. I was coming from a porting background, so this was where I really got to grow as a developer in a larger production. The team was under 20 people, so shipping a narrative-driven 3D adventure of this scope took a lot of effort from everyone. That environment pushed me to take on more and more, and the team trusted me to do so.\n\nI built a new camera system for the game, created a tool to help with cloth physics, and another one to manage and automate the voice recording audio files, which saved the team quite a bit of manual work. Over time I also got involved in optimization and contributed to the porting process, which felt like coming full circle given where I started.",
+    "description": "Blacksad: Under the Skin was my first big project. I was coming from a porting background, so this was where I really got to grow as a developer in a larger production. The team was under 20 people, so shipping a narrative-driven 3D adventure of this scope took a lot of effort from everyone. That environment pushed me to take on more and more, and the team trusted me to do so.\n\nI built a new camera system for the game, created a tool to help with cloth physics, and another one to manage and automate the voice recording audio files, which saved us quite a bit of manual work. Over time I also got involved in optimization and contributed to the porting process, which felt like coming full circle given where I started.",
     "tags": ["Gameplay", "Architecture", "Tools", "Audio", "Optimization", "Porting"]
   },
   {
     "url": "https://store.steampowered.com/app/721390/Pipe_Push_Paradise/",
+    "urlName": "Steam",
     "title": "Pipe Push Paradise",
     "subtitle": "Stage Clear Studios (Porting) - 2018",
     "media": "./img/pipe-push-paradise.webp",
@@ -41,6 +55,7 @@
   },
   {
     "url": "https://store.steampowered.com/app/250580/Paranautical_Activity_Deluxe_Atonement_Edition/",
+    "urlName": "Steam",
     "title": "Paranautical Activity",
     "subtitle": "Stage Clear Studios (Porting) - 2018",
     "media": "./img/paranautical-activity.webp",
@@ -49,6 +64,7 @@
   },
   {
     "url": "https://store.steampowered.com/app/369550/Blacksea_Odyssey/",
+    "urlName": "Steam",
     "title": "Blacksea Odyssey",
     "subtitle": "Stage Clear Studios (Porting) - 2018",
     "media": "./img/blacksea-odyssey.webp",
@@ -65,7 +81,7 @@
   },
   {
     "url": "",
-    "title": "XR Project",
+    "title": "XR Research Project",
     "subtitle": "DEI UC3M - 2017",
     "media": "./img/uc3m.webp",
     "description": "During my time at UC3M, I worked in a research department on a cross-reality (XR) project that connected physical and virtual environments through Oculus Rift, Arduino, and a web application. I contributed to the VR experience and was mainly in charge of the full-stack development of the webapp, which let users design behaviors for Arduino components in the physical world and link them to their virtual counterparts in VR, so that any interaction on either side would be reflected in the other.",

@@ -36,7 +36,7 @@ function animateGreeting() {
     duration: 0.75,
     text: `Hi! I'm Juan`,
     ease: 'none',
-    delay: 0.5
+    delay: 0.25
   })
   .to('h1', {
     delay: 0.25,
@@ -47,7 +47,7 @@ function animateGreeting() {
     ease: 'power2.inOut'
   })
   .to('.preloader', {
-    duration: 0.75,
+    duration: 0.85,
     height: 0,
     ease: 'power2.inOut'
   }, '<')
@@ -195,7 +195,7 @@ export async function initAnimations() {
     .add(animateIntroLinks())
     .add(animateIntroText())
     .set('html, body', { clearProps: 'all' })
-    .add(animateShowcaseSection(), '+=0.25')
+    .add(animateShowcaseSection())
 
   animateShowcaseCards()
 }

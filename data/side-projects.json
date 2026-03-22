@@ -1,6 +1,7 @@
 [
   {
     "url": "",
+    "urlName": "",
     "title": "2D Platformer (working title)",
     "subtitle": "Game - TBA (maybe)",
     "media": "./img/2d-platformer.webp",
@@ -9,6 +10,7 @@
   },
   {
     "url": "https://www.fab.com/listings/6b8e0045-1124-4e1d-9b0b-71e62d77ae59",
+    "urlName": "Fab",
     "title": "Dynamic Avoidance",
     "subtitle": "Unreal Engine Plugin - 2025",
     "media": "./img/dynamic-avoidance.webp",
@@ -17,6 +19,7 @@
   },
   {
     "url": "https://www.fab.com/listings/3b185927-ca99-4c51-9e12-6264a0fc62dc",
+    "urlName": "Fab",
     "title": "Nav Link Editor Mode",
     "subtitle": "Unreal Engine Plugin - 2024",
     "media": "./img/nav-link-editor-mode.webp",
@@ -25,10 +28,29 @@
   },
   {
     "url": "https://www.fab.com/listings/0c69185b-049a-4c31-a501-878289c70efb",
+    "urlName": "Fab",
     "title": "Auto Nav Link Generator",
     "subtitle": "Unreal Engine Plugin - 2024",
     "media": "./img/auto-nav-link-generator.webp",
     "description": "An automatic nav link generator for Unreal Engine. It detects navmesh edges in your level and creates navigation links based on the parameters you define. Supports multiple nav agents, so it works with levels that have different recast navmeshes.",
     "tags": ["AI", "Editor Plugin"]
+  },
+  {
+    "url": "https://github.com/juan-ev/oneiric",
+    "urlName": "GitHub",
+    "title": "Oneiric",
+    "subtitle": "Game - 2018",
+    "media": "./img/oneiric.webp",
+    "description": "A puzzle-platformer I made with a friend for GitHub's Game Off 2018. The theme was 'Hybrid', so we went dark: Inside, Limbo, and Little Nightmares were the references, but with a character torn between two natures: half human, half lifeless shell.",
+    "tags": ["Game"]
+  },
+  {
+    "url": "https://github.com/juan-ev/gamejam-fight-and-win",
+    "urlName": "GitHub",
+    "title": "Fight & Win",
+    "subtitle": "Game - 2016",
+    "media": "./img/fight-win.webp",
+    "description": "A 1v1 fighting game, built during a weekend hackathon, where it ended up taking second place. The whole client runs on HTML5 Canvas and vanilla JavaScript, with NodeJS and Socket.IO handling the multiplayer server-side.",
+    "tags": ["Game", "Full-Stack"]
   }
 ]
