@@ -114,6 +114,7 @@
   object-fit: cover;
   background-color: var(--color-muted);
   transition: transform 0.4s ease, filter 0.4s ease;
+  border-radius: 0.5rem;
 }
 
 .showcase-card-img-link:hover .showcase-card-img {
