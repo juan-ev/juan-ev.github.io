@@ -1,14 +1,5 @@
 [
   {
-    "url": "",
-    "urlName": "",
-    "title": "2D Platformer (working title)",
-    "subtitle": "Game - TBA (maybe)",
-    "media": "./img/2d-platformer.webp",
-    "description": "A casual puzzle platformer I'm building in my spare time with Godot. A good excuse to explore the engine's component-based philosophy hands-on, and to attempt pixel art (which, as a programmer, is probably the real challenge here).",
-    "tags": ["Game"]
-  },
-  {
     "url": "https://www.fab.com/listings/6b8e0045-1124-4e1d-9b0b-71e62d77ae59",
     "urlName": "Fab",
     "title": "Dynamic Avoidance",
@@ -34,6 +25,15 @@
     "media": "./img/auto-nav-link-generator.webp",
     "description": "An automatic nav link generator for Unreal Engine. It detects navmesh edges in your level and creates navigation links based on the parameters you define. Supports multiple nav agents, so it works with levels that have different recast navmeshes.",
     "tags": ["AI", "Editor Plugin"]
+  },
+  {
+    "url": "",
+    "urlName": "",
+    "title": "2D Platformer (working title)",
+    "subtitle": "Game - TBA (maybe)",
+    "media": "./img/2d-platformer.webp",
+    "description": "A casual puzzle platformer I'm building in my spare time with Godot. A good excuse to explore the engine's component-based philosophy hands-on, and to attempt pixel art (which, as a programmer, is probably the real challenge here).",
+    "tags": ["Game"]
   },
   {
     "url": "https://github.com/juan-ev/oneiric",
