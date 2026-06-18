@@ -5,8 +5,8 @@
     "title": "GRIP XR",
     "subtitle": "Caged Element - TBA",
     "media": "./img/grip-xr.webp",
-    "description": "GRIP XR is where I am right now, and it's a bit different from previous projects since I'm helping shape the game's direction alongside the Lead Designer and Lead Artist, scoping the project while we run the Kickstarter campaign.\n\nOn the tech side, one of the main challenges has been the creation mode, which I'm refactoring to be fully game-mode-agnostic. It originally had dependencies baked in from the previous game, so it meant rethinking the whole architecture rather than patching around the old one. I also rebuilt the spline mesh tool from scratch: the old version was Blueprint-based and pretty rigid, so I designed a new one with a non-destructive workflow that lets us merge spline meshes by chunks.",
-    "tags": ["AI", "Gameplay", "Architecture", "Tools", "Optimization"]
+    "description": "GRIP XR is where I am right now. On the tech side, one of the main challenges has been the creation mode, which I'm refactoring to be fully game-mode-agnostic. It originally had dependencies baked in from the previous game, so it meant rethinking the whole architecture rather than patching around the old one. I also rebuilt the spline mesh tool from scratch: the old version was Blueprint-based and pretty rigid, so I designed a new one with a non-destructive workflow that lets us merge spline meshes by chunks, as well as define per-segment overrides.\n\nBeyond the code, I've also been involved in shaping the game's direction alongside the Lead Designer and Lead Artist, helping define project scope while we run the Kickstarter campaign. A nice change of pace from previous roles.",
+    "tags": ["AI", "Gameplay", "Architecture", "Tools", "Optimization", "Production"]
   },
   {
     "url": "https://store.steampowered.com/app/2078450/Warhammer_40000_Speed_Freeks/",
