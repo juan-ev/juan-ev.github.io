@@ -29,19 +29,10 @@
   {
     "url": "",
     "urlName": "",
-    "title": "2D Platformer (working title)",
+    "title": "2D Platformer (WIP)",
     "subtitle": "Game - TBA (maybe)",
     "media": "./img/2d-platformer.webp",
     "description": "A casual puzzle platformer I'm building in my spare time with Godot. A good excuse to explore the engine's component-based philosophy hands-on, and to attempt pixel art (which, as a programmer, is probably the real challenge here).",
-    "tags": ["Game"]
-  },
-  {
-    "url": "https://github.com/juan-ev/oneiric",
-    "urlName": "GitHub",
-    "title": "Oneiric",
-    "subtitle": "Game - 2018",
-    "media": "./img/oneiric.webp",
-    "description": "A puzzle-platformer I made with a friend for GitHub's Game Off 2018. The theme was 'Hybrid', so we went dark: Inside, Limbo, and Little Nightmares were the references, but with a character torn between two natures: half human, half lifeless shell.",
     "tags": ["Game"]
   },
   {
@@ -50,7 +41,7 @@
     "title": "Fight & Win",
     "subtitle": "Game - 2016",
     "media": "./img/fight-win.webp",
-    "description": "A 1v1 fighting game, built during a weekend hackathon, where it ended up taking second place. The whole client runs on HTML5 Canvas and vanilla JavaScript, with NodeJS and Socket.IO handling the multiplayer server-side.",
-    "tags": ["Game", "Full-Stack"]
+    "description": "A 1v1 fighting game built solo during a weekend hackathon, placed 2nd. Full real-time multiplayer implementation from scratch: HTML5 Canvas client, Node.js + Socket.IO server, handling state sync between two players against a weekend deadline.",
+    "tags": ["Game", "Multiplayer"]
   }
 ]
