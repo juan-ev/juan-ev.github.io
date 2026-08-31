@@ -76,8 +76,8 @@
     "title": "Darkborn",
     "subtitle": "Starquake Games - 2017",
     "media": "./img/darkborn.webp",
-    "description": "Darkborn was a master's degree project: a 16-person team building a 3D hack and slash in UE4 that we ended up submitting to the PlayStation Awards. It didn't go anywhere after that, but it was my first real experience working on a game with a sizable team.\n\nI was one of six programmers on the tech side. Together we built the combat system, and individually I worked on camera, physics, some AI, UI integration, tools, and parts of the game architecture. It was the kind of project where everyone pitched in wherever needed.\n\nIt wasn't a commercial project, but it's where I first got a taste of what it's like to build something bigger than yourself with a real team, and a lot of how I approach work now traces back to that.",
-    "tags": ["Gameplay", "Architecture", "Tools", "Animation", "Audio", "Optimization"]
+    "description": "Darkborn was a 16-person team project building a 3D hack and slash in UE4, developed with the intention of a commercial release and backed by our master's program, that we ended up submitting to the PlayStation Awards. It ultimately didn't go anywhere after that, but it was my first real experience working on a game with a sizable team.\n\nI was one of six programmers on the tech side, and I focused on the combat system and enemy AI, building behavior tree based decision-making and attack-slot coordination so multiple enemies could fight the player without piling on. I also worked on camera, physics, UI integration, tools, and parts of the game architecture. It was the kind of project where everyone pitched in wherever needed.\n\nIt wasn't ultimately released commercially, but it's where I first got a taste of what it's like to build something bigger than yourself with a real team, and a lot of how I approach work now traces back to that.",
+    "tags": ["Gameplay", "AI", "Architecture", "Tools", "Optimization"]
   },
   {
     "url": "",
